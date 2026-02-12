@@ -1,5 +1,9 @@
+![Winning Probability Plot](winning_probabilities.png)
+
+---
+
 # t20-worldcup-montecarlo-predictor
-This project predicts the winner of the T20 Cricket World Cup using a **Monte Carlo Simulation** approach combined with an **ELO-based rating system** to estimate match win probabilities.
+This project predicts the winner of the T20 Cricket World Cup 2026 using a **Monte Carlo Simulation** approach combined with an **ELO-based rating system** to estimate match win probabilities.
 
 # 🏏 T20 World Cup Winner Prediction using Monte Carlo Simulation
 
@@ -24,11 +28,10 @@ By running large-scale simulations, we approximate the likelihood of each team w
 
 ### 1️⃣ ELO Rating System
 - Each team is assigned an initial rating.
-- Match outcomes update ratings dynamically.
 - Winning probability is calculated using:
 
 $$
-P(A) = \frac{1}{1 + 10^{(R_B - R_A)/100}}
+P(A) = \frac{1}{1 + 10^{(R_B - R_A)/140}}
 $$
 
 The choice of value of 140 is choosen so that the winning probability among the teams looks natural. (Original value is 400) 
