@@ -31,7 +31,7 @@ $$
 P(A) = \frac{1}{1 + 10^{(R_B - R_A)/100}}
 $$
 
-The choice of value of 100 is choosen so that the winning probability among the teams looks natural. (Original value is 400) 
+The choice of value of 140 is choosen so that the winning probability among the teams looks natural. (Original value is 400) 
 
 Where:
 - $R_A$ = Rating of Team A  
@@ -54,11 +54,12 @@ $$
 
 ## 🛠 Tech Stack
 
-- **Python 3**
-- NumPy
+- **Python 3.11**
 - Pandas
 - Random module
-- Matplotlib (optional for visualization)
+- Matplotlib
+- Seaborn
+- tqdm
 
 ---
 
